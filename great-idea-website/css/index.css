@@ -211,3 +211,7 @@ footer {
 	padding: 40px 0 25px;
 	text-align: center;
 }
+
+.full {
+	width: 100% !important;
+}
