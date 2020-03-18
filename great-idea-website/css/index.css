@@ -207,6 +207,25 @@ section.link-section .img-divider .middle-img {
 section.whoWeAre-section p {
 	margin-bottom: 15px;
 }
+section.whoWeAre-section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 35px 0;
+	margin-bottom: 35px;
+}
+section.whoWeAre-section .headboard-list .directive {
+	display: inline-block;
+	width: 231px;
+	text-align: center;
+}
+section.whoWeAre-section .headboard-list .directive img{
+	width: 180px;
+	margin-bottom: 10px;
+}
+section.whoWeAre-section .headboard-list .directive .position{
+	font-weight: 700;
+	margin-top: -10px;
+}
 section.contact-section p {
 	margin-bottom: 18px;
 }
@@ -214,7 +233,17 @@ footer {
 	padding: 40px 0 25px;
 	text-align: center;
 }
-
-.full {
+.margin-0 {
+	margin: 0;
+}
+.header-text.full-about {
+	margin: 0;
+	height: 380px;
+	vertical-align: middle;
 	width: 100% !important;
+	background: url('https://i.pinimg.com/564x/5f/a9/03/5fa903317fb31647020677537eac5fa7.jpg') no-repeat center;
+	background-size: cover;
+}
+.header-text.full-about h1 {
+	padding-top: 130px;
 }
