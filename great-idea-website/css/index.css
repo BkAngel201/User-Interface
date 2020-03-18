@@ -161,6 +161,8 @@ header .header-text {
 }
 header .header-img {
 	width: 380px;
+	height: 380px;
+	background: url('../img/header-img.png');
 }
 h1 {
 	font-size: 5rem;
@@ -190,6 +192,9 @@ section.link-section .links-threeSpaces {
 	padding-right: 15px;
 }
 section.link-section .img-divider {
+	content: '';
+	height: 196px;
+	background: url('../img/mid-page-accent.jpg');
 	margin: 30px 0;
 }
 section.link-section .img-divider .middle-img {
