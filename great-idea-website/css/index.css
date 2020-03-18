@@ -96,6 +96,10 @@ nav li a {
 	padding: 15px 0;
 	color: #666;
 	text-decoration: none;
+	transition: all .3s;
+}
+nav li:hover a {
+	letter-spacing: 1px;
 }
 nav li a::before {
 	content: '';
