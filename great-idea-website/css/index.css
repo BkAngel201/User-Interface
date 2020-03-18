@@ -204,6 +204,9 @@ section.link-section .img-divider {
 section.link-section .img-divider .middle-img {
 	width: 100%;
 }
+section.whoWeAre-section p {
+	margin-bottom: 15px;
+}
 section.contact-section p {
 	margin-bottom: 18px;
 }
